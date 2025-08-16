@@ -19,7 +19,7 @@ class Config(object):
     TECH_VJ_BOT_USERNAME = os.environ.get("uploderxcmxbot", "") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("23274996"))
+    TECH_VJ_API_ID = int(os.environ.get(", 23274996"))
     TECH_VJ_API_HASH = os.environ.get("7fa0c48ef9e57f8d92dba33ed6771e64", "")
     
     # the download location, where the HTTP Server runs
